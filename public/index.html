@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <title>Você viu meu pet?</title>
+</head>
+<body>
+    <header class="header">
+        <h1><a href="./index.html">Você viu meu pet?</a></h1>
+        <nav>
+            <ul>
+                <!-- <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro-usuario.html">Cadastro</a></li> 
+                <li><a href="pagina-pets-encontrados.html">Pets encontrados</a></li>-->
+                <li><a href="home.html">Página inicial</a></li>
+                <li><a href="cadastro-pet.html">Cadastrar pet</a></li>
+            </ul>
+        </nav>
+    </header>
+      <main>
+        <div class="login-container">
+          <div>
+            <img src="../img/gato_laranja.jpeg" alt="gato laranja"/>
+          </div>
+          <div class="login-form">
+            <div>
+              <h1>Entrar</h1>
+              <p class="login-text">
+                Entre com seu e-mail e senha para continuar
+              </p>
+            </div>
+            <div class="input-form">
+              <input
+                type="email"
+                placeholder="E-mail"
+                id="email"
+                onchange="onChangeEmail()"
+              />
+              <!-- <div class="erro" id="emailObrigatorio">E-mail é obrigatório</div>
+              <div class="erro" id="emailInvalido">E-mail inválido</div> -->
+              <input
+                type="password"
+                placeholder="Senha"
+                id="password"
+                onblur="onChangeSenha()"
+              />
+              <!-- <div class="erro" id="senhaObrigatoria">Senha é obrigatório</div> -->
+              <a
+                href=""
+                class="recover-password"
+                id="recuperarSenha"
+                >Esqueci minha senha
+              </a>
+            </div>
+            <div class="btn-login">
+              <button id="btnEntrar" onclick="logar()">
+                Entrar
+              </button>
+              <p>Ainda não tem uma conta?</p>
+              <a href="">Cadastre-se agora</a>
+            </div>
+          </div>
+        </div>
+      </main>
+
+
+
+    <!-- <section>
+        <p>Aplicação criada para que pessoas possam ajudar pets perdidos a serem encontrados na cidade de Londrina.</p>
+    </section> -->
+</body>
+</html>
