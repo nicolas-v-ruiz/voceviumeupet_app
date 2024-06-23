@@ -1,56 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>Cadastrar pet</title>
 </head>
+
 <body>
     <header>
         <h1>Cadastrar pet</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Página Inicial</a></li>
-                <li><a href="login.html">Login</a></li>
             </ul>
         </nav>
     </header>
     <section>
         <!-- Formulário de postagem de pet encontrado/perdido -->
         <form>
-            <label for="nomePet">Nome do Pet:</label>
-            <input type="text" id="nomePet" name="nomePet" required>
-            
-            <input type="radio" id="opcao1" name="escolha" value="opcao1">
-            <label for="opcao1">Pet perdido</label><br>
-            
-            <input type="radio" id="opcao2" name="escolha" value="opcao2">
-            <label for="opcao2">Pet encontrado</label><br>
+            <div class="cadastro-pet-form">
+                <label for="nomePet">Nome do Pet:</label>
+                <input type="text" id="nomePet" name="nomePet" required>
 
-            <label for="especie">Espécie</label>
-            <input type="text" id="especie" name="especie" required>
-            
-            <label for="raca">Raça</label>
-            <input type="text" id="raca" name="raca" required>
+                <div class="opcoes">
+                    <input type="radio" id="opcao1" name="escolha" value="opcao1">
+                    <label for="opcao1">Pet perdido</label><br>
 
-            <label for="cor">Cor</label>
-            <input type="text" id="cor" name="cor" required>
+                    <input type="radio" id="opcao2" name="escolha" value="opcao2">
+                    <label for="opcao2">Pet encontrado</label><br>
+                </div>
+                <label for="especie">Espécie</label>
+                <input type="text" id="especie" name="especie" required>
 
-            <label for="localizacao">Localização</label>
-            <input type="text" id="localizacao" name="localizacao" required>
+                <label for="raca">Raça</label>
+                <input type="text" id="raca" name="raca" required>
 
-            <label for="data">Data</label>
-            <input type="text" id="data" name="data" required>
-            
-            <label for="info">Informações para contato</label>
-            <input type="text" id="info" name="info" required>
+                <label for="cor">Cor</label>
+                <input type="text" id="cor" name="cor" required>
 
-            <label for="foto">Foto do Pet</label>
-            <input type="file" id="foto" name="foto" accept="image/*">
+                <label for="localizacao">Localização</label>
+                <input type="text" id="localizacao" name="localizacao" required>
 
-            <button type="submit">Postar</button>
+                <label for="data">Data</label>
+                <input type="text" id="data" name="data" required>
+
+                <label for="info">Informações para contato</label>
+                <input type="text" id="info" name="info" required>
+
+                <label for="foto">Foto do Pet</label>
+                <input type="file" id="foto" name="foto" accept="image/*">
+            </div>
+            <button class="BtnPostar" type="submit">Postar</button>
         </form>
     </section>
 </body>
+
 </html>
