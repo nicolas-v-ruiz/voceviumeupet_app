@@ -18,53 +18,34 @@
         </nav>
     </header>
     <section>
-        <!-- Formulário de postagem de pet encontrado/perdido -->
-        <form>
-            <div class="cadastro-pet-form">
-                <label for="nomePet">Nome do Pet:</label>
-                <input type="text" id="nomePet" name="nomePet" required>
+        <form method="post" action="" name="cadastro-pet-form">
+            <input type="text" id="input" name="nomeUsuario" placeholder="Nome da pessoa" required>
+            <input type="text" id="input" name="telefoneUsuario" placeholder="Telefone" required>
+            <input type="text" id="input" name="emailUsuario" placeholder="Email" required>
+            <input type="text" id="input" name="nomePet" placeholder="Nome do Pet" required>
+            <input type="text" id="input" name="perdidoouencontradoPet" placeholder="Pet perdido ou encontrado?" required>
+            <input type="text" id="input" name="especiePet" placeholder="Espécie" required>
+            <input type="text" id="input" name="racaPet" placeholder="Raça" required>
+            <input type="text" id="input" name="corPet" placeholder="Cor" required>
+            <input type="text" id="input" name="localizacaoPet" placeholder="Localização do Pet" required>
+            <input type="text" id="input" name="dataPet" placeholder="Data em que foi encontrado/perdido" required>
+            <textarea id="input" rows="7" name="infoPet" placeholder="Informações adicionais"></textarea>
+            <label> Foto do Pet
+                <input type="file" name="fotoPet" accept="image/*">
+            </label>
+            <button type="submit" value="Enviar">Enviar cadastro</button>
 
-                <div class="opcoes">
-                    <input type="radio" id="opcao1" name="escolha" value="opcao1">
-                    <label for="opcao1">Pet perdido</label><br>
-
-                    <input type="radio" id="opcao2" name="escolha" value="opcao2">
-                    <label for="opcao2">Pet encontrado</label><br>
-                </div>
-                
-                <label for="especie">Espécie</label>
-                <input type="text" id="especie" name="especie" required>
-
-                <label for="raca">Raça</label>
-                <input type="text" id="raca" name="raca" required>
-
-                <label for="cor">Cor</label>
-                <input type="text" id="cor" name="cor" required>
-
-                <label for="localizacao">Localização</label>
-                <input type="text" id="localizacao" name="localizacao" required>
-
-                <label for="data">Data</label>
-                <input type="text" id="data" name="data" required>
-
-                <label for="info">Informações para contato</label>
-                <input type="text" id="info" name="info" required>
-
-                <label for="foto">Foto do Pet</label>
-                <input type="file" id="foto" name="foto" accept="image/*">
-            </div>
-            <button class="BtnPostar" type="submit">Postar</button>
-        </form>
+            <script src="/javascript/script.js"></script>
     </section>
     <footer>
-        <div> <i>Aplicação web desenvolvida durante a disciplina de 
-          extensão do curso de Análise e Desenvolvimento de Sistemas da Unifil. Alguns direitos reservados.</i></div>
-          
-          <div> 
+        <div> <i>Aplicação web desenvolvida durante a disciplina de
+                extensão do curso de Análise e Desenvolvimento de Sistemas da Unifil. Alguns direitos reservados.</i></div>
+
+        <div>
             <p>Nicolas Ruiz | Fernanda Silva | Rachell Tahuny</p>
             <p>Londrina, PR | 2023-24</p>
-          </div>
-      </footer>
+        </div>
+    </footer>
 
 </body>
 
