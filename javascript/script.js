@@ -2,7 +2,7 @@ const script_do_google = 'https://script.google.com/macros/s/AKfycbx_477yb2jGfIi
 const dados_do_formulario = document.forms['cadastro-pet-form'];
 
 dados_do_formulario.addEventListener('submit', function (e) {
-  e.preventDefault();
+ e.preventDefault();
 
   fetch(script_do_google, { method: POST, body: new FormData(dados_do_formulario) }).then(response => {
     // Se os dados forem gravados corretamente, será enviada uma mensagem de sucesso

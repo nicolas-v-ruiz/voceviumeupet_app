@@ -18,24 +18,24 @@
         </nav>
     </header>
     <section>
-        <form method="post" action="" name="cadastro-pet-form">
-            <input type="text" id="input" name="nomeUsuario" placeholder="Nome da pessoa" required>
-            <input type="text" id="input" name="telefoneUsuario" placeholder="Telefone" required>
-            <input type="text" id="input" name="emailUsuario" placeholder="Email" required>
-            <input type="text" id="input" name="nomePet" placeholder="Nome do Pet" required>
-            <input type="text" id="input" name="perdidoouencontradoPet" placeholder="Pet perdido ou encontrado?" required>
-            <input type="text" id="input" name="especiePet" placeholder="Espécie" required>
-            <input type="text" id="input" name="racaPet" placeholder="Raça" required>
-            <input type="text" id="input" name="corPet" placeholder="Cor" required>
-            <input type="text" id="input" name="localizacaoPet" placeholder="Localização do Pet" required>
-            <input type="text" id="input" name="dataPet" placeholder="Data em que foi encontrado/perdido" required>
-            <textarea id="input" rows="7" name="infoPet" placeholder="Informações adicionais"></textarea>
+        <form method="POST" action="https://sheetdb.io/api/v1/rmccmduodiq8f" name="cadastro-pet-form">
+            <input type="text" id="input" name="data[nomeUsuario]" placeholder="Nome da pessoa" required>
+            <input type="text" id="input" name="data[telefoneUsuario]" placeholder="Telefone" required>
+            <input type="text" id="input" name="data[emailUsuario]" placeholder="Email" required>
+            <input type="text" id="input" name="data[nomePet]" placeholder="Nome do Pet" required>
+            <input type="text" id="input" name="data[perdidoouencontradoPet]" placeholder="Pet perdido ou encontrado?" required>
+            <input type="text" id="input" name="data[especiePet]" placeholder="Espécie" required>
+            <input type="text" id="input" name="data[racaPet]" placeholder="Raça" required>
+            <input type="text" id="input" name="data[corPet]" placeholder="Cor" required>
+            <input type="text" id="input" name="data[localizacaoPet]" placeholder="Localização do Pet" required>
+            <input type="text" id="input" name="data[dataPet]" placeholder="Data em que foi encontrado/perdido" required>
+            <textarea id="input" rows="7" name="data[infoPet]" placeholder="Informações adicionais"></textarea>
             <label> Foto do Pet
-                <input type="file" name="fotoPet" accept="image/*">
+                <input type="file" name="image[fotoPet]" accept="image/*">
             </label>
             <button type="submit" value="Enviar">Enviar cadastro</button>
 
-            <script src="/javascript/script.js"></script>
+            <!--<script src="/javascript/script.js"></script>-->
     </section>
     <footer>
         <div> <i>Aplicação web desenvolvida durante a disciplina de
