@@ -4,7 +4,7 @@
 <p>title: "Você viu meu pet?"</p>
 <p>draft: false</p>
 <p>language: pt-br</p>
-<p>summary: Sumário de seu projeto</p>
+<p>summary: Encontre seu pet perdido com facilidade! Nossa plataforma conecta tutores e pets desaparecidos de forma rápida e segura, reunindo informações úteis e permitindo reencontros emocionantes.</p>
 <p>author: Nicolas Ruiz, Fernanda Silva e Rachell Tahuny</p>
 <p>categories: Aplicativo web</p>
 <p>tags: ["Meio Ambiente", "Causa animal", "Causa social", "Pets"]</p>
