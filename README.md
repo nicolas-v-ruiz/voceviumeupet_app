@@ -2,8 +2,9 @@
 
 --
 <p>title: "Você viu meu pet?"</p>
-<p>draft: false</p>
+<p>draft: true</p>
 <p>language: pt-br</p>
+<p>featured_image:  </p>
 <p>summary: Encontre seu pet perdido com facilidade! Nossa plataforma conecta tutores e pets desaparecidos de forma rápida e segura, reunindo informações úteis e permitindo reencontros emocionantes.</p>
 <p>author: Nicolas Ruiz, Fernanda Silva e Rachell Tahuny</p>
 <p>categories: Aplicativo web</p>
